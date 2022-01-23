@@ -134,16 +134,16 @@
   
   .moon {
     position: absolute;
-    right: 350px;
-    top: 30.5%;
-    width: 380px;
+    right: 242px;
+    top: 27%;
+    width: 340px;
     transition: all 1s ease-in;
     z-index: 100;
   }
   .moon:hover {
-    width: 475px;
-    right: 300px;
-    top: 25.5%;
+    width: 425px;
+    right: 204px;
+    top: 21.5%;
     transform: rotate(360deg);
     transition: all 1s ease-out;
   }
@@ -210,28 +210,28 @@
     z-index: 5;
   }
   
-  main.begrüssungstext {
+  main.begruessungstext {
     font-family: "Montserrat", sans-serif;
     color: #f9b518;
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 35vw;
   }
   
   #aerospace {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
-    transition: all 1s ease-in
-
+    transition: all 1s ease-in;
   }
+
   #aerospace:hover {
     color: white;
     transition: all 1s ease-out;
   }
   #Reise {
-    font-size: 2.5rem;
-    margin-top: 40px;
+    font-size: 2rem;
+    margin-top: 25px;
     font-weight: 300;
     width: 28vw;
     transition: all .5s ease-in
@@ -239,7 +239,7 @@
   }
   #Reise:hover {
     transition: all .5s ease-out;
-    color: #fff;
+    color: #ffffff;
   }
 
   h2 {
