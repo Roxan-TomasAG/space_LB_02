@@ -133,16 +133,16 @@
   
   .moon {
     position: absolute;
-    right: 242px;
-    top: 27%;
+    right: 329px;
+    top: 31%;
     width: 340px;
     transition: all 1s ease-in;
     z-index: 100;
   }
   .moon:hover {
     width: 425px;
-    right: 204px;
-    top: 21.5%;
+    right: 284px;
+    top: 26%;
     transform: rotate(360deg);
     transition: all 1s ease-out;
   }
@@ -214,7 +214,7 @@
     color: #f9b518;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 140px;
     width: 35vw;
   }
   
