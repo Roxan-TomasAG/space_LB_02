@@ -64,7 +64,7 @@
   }
   nav.stroke ul li a,
   nav.fill ul li a {
-      position: relative;
+    position: relative;
   }
   nav.stroke ul li a:after,
   nav.fill ul li a:after {
@@ -134,36 +134,24 @@
   
   .moon {
     position: absolute;
-    right: 245px;
-    top: 27%;
-    width: 340px;
+    right: 350px;
+    top: 30.5%;
+    width: 380px;
     transition: all 1s ease-in;
     z-index: 100;
   }
   .moon:hover {
     width: 475px;
-    right: 180px;
-    top: 18%;
+    right: 300px;
+    top: 25.5%;
     transform: rotate(360deg);
     transition: all 1s ease-out;
   }
-  
-  /*
-  .bluesphere {
-    transition: all 1s ease-in;
-  }
-  
-  .bluesphere:hover {
-    transform: rotate(360deg);
-    transition: all 1s ease-out;
-  }
-  */
-  
   
   .bluesphere{   
     position: absolute;
     width: 60px;
-    right: 700px;
+    right: 850px;
     top: 58%;
     animation-name:schweben; 
     animation-duration: 3s; 
@@ -181,7 +169,7 @@
   .orangesphere {   
     position: absolute;
     width: 75px;
-    right: 650px;
+    right: 825px;
     top: 76% ;
     animation-name:floating; 
     animation-duration: 3s; 
@@ -200,7 +188,7 @@
   .purplesphere{   
     position: absolute;
     width: 65px;
-    right: 500px;
+    right: 650px;
     top: 83%;
     animation-name:himmelig; 
     animation-duration: 3s; 
@@ -227,21 +215,21 @@
     color: #f9b518;
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 150px;
     width: 35vw;
   }
   
-  #roxansivaratnam {
+  #aerospace {
     font-size: 5rem;
     font-weight: 700;
     transition: all 1s ease-in
 
   }
-  #roxansivaratnam:hover {
+  #aerospace:hover {
     color: white;
     transition: all 1s ease-out;
   }
-  #mediamatikerefz {
+  #Reise {
     font-size: 2.5rem;
     margin-top: 40px;
     font-weight: 300;
@@ -249,25 +237,10 @@
     transition: all .5s ease-in
 
   }
-  #mediamatikerefz:hover {
+  #Reise:hover {
     transition: all .5s ease-out;
     color: #fff;
   }
-  
-
-
-  article {
-      width: 30%;
-      color: white;
-      margin: 50px 0 5px 0;
-      font-family: "Montserrat", sans-serif;
-
-  }
-
-  article img {
-      width: 100%;
-  }
-
 
   h2 {
       margin: 25px 0 2px 0;
@@ -287,23 +260,6 @@ h2:hover {
     margin: 20px 0 2px 0;
     font-size: 1em;
     line-height: 1.5em;
-  }
-
-  .container{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;  
-    -webkit-flex-wrap: wrap;  
-    flex-wrap: wrap ;
-    justify-content: space-between;
-}
-
-.container > section {
-    background-color: #f1f1f1;
-    line-height: 75px;
   }
 
 
@@ -327,52 +283,3 @@ h2:hover {
   object-position: right;
   z-index: 1;
 }
-
-
-.hashtag{
-  margin: 15px 0 2px 0;
-  transition: all 1s ease-in;
-  width: 300px;
-}
-
-.hashtag:hover {
-  color: #f9b518;
-  transition: all 1s ease-out;
-  }
-
-/*
-.zoomhover figure img{
-  -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.zoomhover figure:hover img{
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-*/
-
-figure{
-  overflow: hidden;
-}
-
-.boxforzoom img{
-  display: block;
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-}
-
-.boxforzoom .zoom-in img{
-  transition: transform .5s, filter .5s ease-in-out;
-  filter: blur(1px);
-  transform: scale(1.2);
-}
-
-.boxforzoom .zoom-in:hover img{
-  filter: blur(0);
-  transform: scale(1);
-}
-
