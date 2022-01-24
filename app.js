@@ -8,9 +8,6 @@ function showUI(){
         `Umfang: ${planeten.umfang}<br>`+
         `Nummerierung: ${planeten.nummerierung}`;
 
-    htmlObj = document.getElementById("anzahl");
-    htmlObj.innerHTML =
-        `Anzahl Monde: ${planeten.anzahl.anzahl}<br>`;
 
     htmlObj = document.getElementById("monde");
     htmlObj.innerHTML = "";

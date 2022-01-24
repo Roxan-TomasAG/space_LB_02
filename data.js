@@ -10,9 +10,6 @@ let planetenListe =
             "planet": "Saturn",
             "umfang": "378.675 km",
             "nummerierung": nummerierungList[5],
-            "anzahl": {
-                "anzahl": "82",
-            },
             "monde": {
                 "monde": ["Mimas", "Enceladus", "Tethys", "Dione", "Rhea", "Titan", "Hyperion", "Iapetus", "Phoebe", "Janus"],
             }
@@ -20,9 +17,6 @@ let planetenListe =
         "planet": "Uranus",
         "umfang": "160.590 km",
         "nummerierung": nummerierungList[6],
-        "anzahl": {
-            "anzahl": "27",
-        },
         "monde": {
             "monde": ["Ariel", "Umbriel", "Titania", "Oberon", "Miranda", "Cordelia", "Ophelia", "Bianca", "Cressida", "Desdemona"],
         }
@@ -30,9 +24,6 @@ let planetenListe =
         "planet": "Jupiter",
         "umfang": "439.264 km",
         "nummerierung": nummerierungList[4],
-        "anzahl": {
-            "anzahl": "79",
-        },
         "monde": {
             "monde": ["Io", "Europa", "Ganymed", "Kallisto", "Amalthea", "Himalia", "Elara", "Pasiphae", "Sinope", "Lysithea"],
         }
